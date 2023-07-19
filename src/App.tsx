@@ -1,7 +1,7 @@
 import { useState } from "react";
 import NavigationBar from "./components/Navigation";
 import MainContent from "./components/MainContent";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Faq from "./components/Faq";
 import "bootstrap/dist/css/bootstrap.css";
 import "./app.css";
