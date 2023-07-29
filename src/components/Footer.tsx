@@ -5,27 +5,57 @@ function Footer() {
         <p className="text-md-start text-center">
           Questions? Call <u>000-800-919-1694</u>
         </p>
-        <div className="d-md-flex justify-content-md-between anchor-font text-md-start text-center">
-          <div className="text-light d-flex flex-column gap-2 ">
-            <a href="">FAQ</a>
-            <a href="">Media Center</a>
-            <a href="">Ways to Watch</a>
-            <a href="">Cookie Preferance</a>
-            <a href="">Speed Test</a>
+        <div className="row justify-content-md-between anchor-font text-md-start text-center">
+          <div className="col-md-4 col-4">
+            <a href="" className="d-block">
+              FAQ
+            </a>
+            <a href="" className="d-block">
+              Media Center
+            </a>
+            <a href="" className="d-block">
+              Ways to Watch
+            </a>
+            <a href="" className="d-block">
+              Cookie Preferance
+            </a>
+            <a href="" className="d-block">
+              Speed Test
+            </a>
           </div>
-          <div className="d-flex flex-column gap-2">
-            <a href="">Help Center</a>
-            <a href="">Investor Relations</a>
-            <a href="">Terms of Use</a>
-            <a href="">Corporate Information</a>
-            <a href="">Legal Notices</a>
+          <div className="col-md-4 col-4">
+            <a href="" className="d-block">
+              Help Center
+            </a>
+            <a href="" className="d-block">
+              Investor Relations
+            </a>
+            <a href="" className="d-block">
+              Terms of Use
+            </a>
+            <a href="" className="d-block">
+              Corporate Information
+            </a>
+            <a href="" className="d-block">
+              Legal Notices
+            </a>
           </div>
-          <div className="d-flex flex-column gap-2">
-            <a href="">Account</a>
-            <a href="">Jobs</a>
-            <a href="">Privacy</a>
-            <a href="">Contact Us</a>
-            <a href="">Only on Netflix</a>
+          <div className="col-md-4 col-4">
+            <a href="" className="d-block">
+              Account
+            </a>
+            <a href="" className="d-block">
+              Jobs
+            </a>
+            <a href="" className="d-block">
+              Privacy
+            </a>
+            <a href="" className="d-block">
+              Contact Us
+            </a>
+            <a href="" className="d-block">
+              Only on Netflix
+            </a>
           </div>
         </div>
         <select className="my-5 form-selector bg-dark d-block mx-auto mx-md-0">

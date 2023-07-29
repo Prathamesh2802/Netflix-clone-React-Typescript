@@ -12,18 +12,25 @@ function MainContent() {
         <div className="text-center d-lg-flex justify-content-center mainsection align-items-center">
           <div className="text-lg-start text-center col-lg-6 py-5 my-3 my-lg-0 py-lg-0">
             <h1 className="md:w-100">Enjoy on your TV</h1>
-            <h5 className="md:w-100 my-5">
+            <h5 className="md:w-100 my-md-5">
               Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
               Blu-ray players, and more
             </h5>
           </div>
-          <div className="col-lg-6 py-2 py-md-0">
+          <div className="col-lg-6 py-2 py-md-0 col-12">
             <div className="position-relative my-5 my-md-0">
-              <video src={firstvideo} autoPlay autoFocus loop muted></video>
+              <video
+                src={firstvideo}
+                autoPlay
+                autoFocus
+                loop
+                muted
+                className=""
+              ></video>
               <img
                 src={tvimg}
                 alt=""
-                className="position-absolute translate-middle start-50 bottom-0 top-50 end-0"
+                className="position-absolute translate-middle start-50 bottom-0 top-50 end-0 img img-fluid"
               />
             </div>
           </div>
@@ -35,7 +42,7 @@ function MainContent() {
           <div className="col-lg-6 my-5 my-md-0">
             <div className="text-center">
               {/* <video src={firstvideo} autoPlay autoFocus loop muted></video> */}
-              <img src={mobileimg} alt="" className="" />
+              <img src={mobileimg} alt="" className="img img-fluid" />
             </div>
           </div>
           <div className="text-lg-start text-center col-lg-6 my-5 py-5 my-md-0 py-md-0">
@@ -56,7 +63,7 @@ function MainContent() {
               laptop, and TV.
             </h5>
           </div>
-          <div className="col-lg-6 py-md-0">
+          <div className="col-lg-6 py-md-0 col-12">
             <div className="position-relative my-md-0">
               <video
                 src={secondvideo}
@@ -69,7 +76,7 @@ function MainContent() {
               <img
                 src={multipledevices}
                 alt=""
-                className="position-absolute translate-middle start-50 bottom-0 top-50 end-0 mt-5 pt-5 "
+                className="position-absolute translate-middle start-50 bottom-0 top-50 end-0 mt-5 pt-5 img img-fluid d-none d-md-block"
               />
             </div>
           </div>
@@ -81,7 +88,7 @@ function MainContent() {
           <div className="col-lg-6 my-5 my-md-0">
             <div className="text-center">
               {/* <video src={firstvideo} autoPlay autoFocus loop muted></video> */}
-              <img src={kidschannel} alt="" className="" />
+              <img src={kidschannel} alt="" className="img img-fluid" />
             </div>
           </div>
           <div className="text-lg-start text-center col-lg-6 my-5 py-5 my-md-0 py-md-0">
