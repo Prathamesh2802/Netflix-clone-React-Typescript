@@ -25,7 +25,7 @@ function MainContent() {
                 autoFocus
                 loop
                 muted
-                className=""
+                className="img img-fluid"
               ></video>
               <img
                 src={tvimg}
@@ -71,7 +71,7 @@ function MainContent() {
                 autoFocus
                 loop
                 muted
-                className="video_height"
+                className="video_height img-fluid img"
               ></video>
               <img
                 src={multipledevices}
